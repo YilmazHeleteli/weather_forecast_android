@@ -4,7 +4,9 @@ plugins {
 
 android {
     compileSdkVersion 29
-
+    lintOptions {
+        checkReleaseBuilds false
+    }
     defaultConfig {
         applicationId "com.example.weatherforecast"
         minSdkVersion 16
